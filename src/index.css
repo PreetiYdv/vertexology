@@ -1,13 +1,245 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@400;500;700&display=swap');
+
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  list-style-type: none;
+  text-decoration: none !important;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "gilroy Regular";
+  src: url(./assets/fonts/Gilroyfont/Gilroy-Regular.ttf);
+}
+
+@font-face {
+  font-family: "gilroy Medium";
+  src: url(./assets/fonts/Gilroyfont/Gilroy-Medium.ttf);
+}
+
+@font-face {
+  font-family: "gilroy Semibold";
+  src: url(./assets/fonts/Gilroyfont/Gilroy-Bold.ttf);
+}
+
+@font-face {
+  font-family: "gilroy Black";
+  src: url(./assets/fonts/Gilroyfont/Gilroy-Black.ttf);
+}
+
+:root {
+  /* font-size */
+  --fs-xsm: 14px;
+  --fs-sm: 14px;
+  --fs-2xl: 14px;
+  --fs-4xl: 30px;
+  --fs-4x5l: 25px;
+  --fs-6x5l: 22px;
+  --fs-65xl: 30px;
+  --fs-12x2l: 50px;
+  --fs-13x7l: 55px;
+
+  /* font weight */
+  --fw-900: 900;
+
+  /* fcs */
+  --fc-black: #070707;
+  --fc-white: #ffffff;
+  --fc-grey: #404040;
+  --bg-black: #070707;
+
+  /* ff */
+  --ff-gilroyReg: "gilroy Regular", sans-serif;
+  --ff-gilroyMed: "gilroy Medium", sans-serif;
+  --ff-gilroySemiBold: "gilroy Semibold", sans-serif;
+  --ff-gilroyBlack: "gilroy Black", sans-serif;
+}
+
+.ff_gilroyReg {
+  font-family: var(--ff-gilroyReg);
+}
+
+.ff_gilroyMed {
+  font-family: var(--ff-gilroyMed);
+}
+
+.ff_gilroySemiBold {
+  font-family: var(--ff-gilroySemiBold);
+}
+
+.ff_gilroyBlack {
+  font-family: var(--ff-gilroyBlack);
+}
+
+.fs_xsm {
+  font-size: var(--fs-xsm);
+}
+
+.fs_sm {
+  font-size: var(--fs-sm);
+}
+
+.fs_2xl {
+  font-size: var(--fs-2xl);
+}
+
+.fs_4xl {
+  font-size: var(--fs-4xl);
+}
+
+.fs_4x5l {
+  font-size: var(--fs-4x5l);
+}
+
+.fs_6x5l {
+  font-size: var(--fs-6x5l);
+}
+
+.fs_65xl {
+  font-size: var(--fs-65xl);
+}
+
+.fs_12x2l {
+  font-size: var(--fs-12x2l);
+}
+
+.fs_13x7l {
+  font-size: var(--fs-13x7l);
+}
+
+.fc_black {
+  color: var(--fc-black);
+}
+
+.fc_white {
+  color: var(--fc-white);
+}
+
+.fc_grey {
+  color: var(--fc-grey);
+}
+
+.bg_black {
+  background-color: var(--fc-black);
+}
+
+.Cursor_Pointer {
+  cursor: pointer;
+}
+
+@media (min-width:576px) {
+  :root {
+    /* font-size */
+    --fs-xsm: 14px;
+    --fs-sm: 14px;
+    --fs-2xl: 16px;
+    --fs-4xl: 40px;
+    --fs-4x5l: 40px;
+    --fs-6x5l: 27px;
+    --fs-65xl: 45px;
+    --fs-12x2l: 70px;
+    --fs-13x7l: 75px;
+  }
+}
+
+@media (min-width:768px) {
+  :root {
+    /* font-size */
+    --fs-xsm: 14px;
+    --fs-sm: 14px;
+    --fs-2xl: 16px;
+    --fs-4xl: 40px;
+    --fs-4x5l: 40px;
+    --fs-6x5l: 27px;
+    --fs-65xl: 55px;
+    --fs-12x2l: 70px;
+    --fs-13x7l: 75px;
+  }
+}
+
+@media (min-width:992px) {
+  :root {
+    --fs-xsm: 14px;
+    --fs-sm: 16px;
+    --fs-4xl: 40px;
+    --fs-4x5l: 40px;
+    --fs-6x5l: 47px;
+    --fs-65xl: 65px;
+    --fs-12x2l: 78px;
+    --fs-13x7l: 81px;
+  }
+}
+
+
+@media (min-width:1200px) {
+  :root {
+    /* font-size */
+    --fs-xsm: 14px;
+    --fs-sm: 16px;
+    --fs-2xl: 20px;
+    --fs-4xl: 40px;
+    --fs-4x5l: 45px;
+    --fs-6x5l: 65px;
+    --fs-65xl: 65px;
+    --fs-12x2l: 78px;
+    --fs-13x7l: 81px;
+  }
+
+  .min_vh_100 {
+    min-height: 100vh;
+  }
+}
+
+@media (min-width:1400px) {
+  :root {
+    /* font-size */
+    --fs-xsm: 14px;
+    --fs-sm: 16px;
+    --fs-2xl: 20px;
+    --fs-4xl: 40px;
+    --fs-4x5l: 45px;
+    --fs-6x5l: 65px;
+    --fs-12x2l: 122.73px;
+    --fs-13x7l: 137.81px;
+  }
+}
+
+@media (min-width:1517px) {
+  :root {
+    /* font-size */
+    --fs-xsm: 14px;
+    --fs-sm: 16px;
+    --fs-2xl: 20px;
+    --fs-4xl: 40px;
+    --fs-4x5l: 45px;
+    --fs-6x5l: 65px;
+    --fs-12x2l: 122.73px;
+    --fs-13x7l: 137.81px;
+  }
+}
+
+.lh_19 {
+  line-height: 19px;
+}
+
+.opacity_4 {
+  opacity: 0.4;
+}
+
+.opacity_6 {
+  opacity: 0.6;
+}
+
+.opacity_7 {
+  opacity: 0.7;
+}
+
+.ls_13 {
+  letter-spacing: 0.13em;
+}
+
+.lh_17 {
+  line-height: 17px;
+  height: 41px;
 }
