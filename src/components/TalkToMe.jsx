@@ -17,7 +17,12 @@ const TalkToMe = () => {
             sm={6}
             className="ps-4 pe-xl-5 py-sm-5 py-4 d-flex justify-content-start flex-column align-items-end"
           >
-            <div className="pe-md-5 me-lg-5">
+            <div
+              className="pe-md-5 me-lg-5"
+              data-aos="fade-right"
+              data-aos-offset="500"
+              data-aos-duration="500"
+            >
               <h2 className=" ff_gilroyBlack fc_black fs_6x5l text-uppercase mb-1 text_shadow mw_500">
                 At tempor, amet viverra eu Quisque
               </h2>

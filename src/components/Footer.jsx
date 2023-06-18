@@ -87,8 +87,8 @@ const Footer = () => {
                 alt="footer_img"
                 className="w-50 position-absolute start-0 bottom-0 h-100"
               />
-              <div className="d-flex flex-lg-column justify-content-center gap-3">
-                <a href="#">
+              <div className="d-flex flex-lg-column justify-content-center gap-3 position-relative z-3">
+                <a href="https://www.instagram.com/">
                   <span className="footer_icon rounded-pill">
                     <svg
                       width="21"
@@ -104,7 +104,7 @@ const Footer = () => {
                     </svg>
                   </span>
                 </a>
-                <a href="#">
+                <a href="https://themes.muffingroup.com/be/webdesign/">
                   <span className="footer_icon rounded-pill">
                     <svg
                       width="21"
@@ -132,7 +132,7 @@ const Footer = () => {
                     </svg>
                   </span>
                 </a>
-                <a href="#">
+                <a href="https://www.youtube.com/">
                   <span className="footer_icon rounded-pill">
                     <svg
                       width="21"
@@ -148,7 +148,7 @@ const Footer = () => {
                     </svg>
                   </span>
                 </a>
-                <a href="#">
+                <a href="https://www.facebook.com/">
                   <span className="footer_icon rounded-pill">
                     <svg
                       width="22"
@@ -164,7 +164,7 @@ const Footer = () => {
                     </svg>
                   </span>
                 </a>
-                <a href="#">
+                <a href="https://twitter.com/i/flow/login">
                   <span className="footer_icon rounded-pill">
                     <svg
                       width="22"
@@ -180,7 +180,7 @@ const Footer = () => {
                     </svg>
                   </span>
                 </a>
-                <a href="#">
+                <a href="https://in.linkedin.com/">
                   <span className="footer_icon rounded-pill">
                     <svg
                       width="22"

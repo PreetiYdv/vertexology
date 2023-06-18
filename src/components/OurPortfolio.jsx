@@ -3,8 +3,8 @@ import Slider from "react-slick";
 import flower from "../assets/images/png/sliderFlower.png";
 import chair from "../assets/images/gif/chair.gif";
 import capsule from "../assets/images/png/capsule.png";
-import mail_box from "../assets/images/png/mail_box.png"
-import wing from "../assets/images/png/portfolio_wing.png"
+import mail_box from "../assets/images/png/mail_box.png";
+import wing from "../assets/images/png/portfolio_wing.png";
 
 const OurPortfolio = () => {
   const slider = useRef();
@@ -150,22 +150,42 @@ const OurPortfolio = () => {
             </div>
           </div>
           <Slider ref={slider} {...settings} className="Portfolio_slider pt-5">
-            <div className="pe-4">
+            <div
+              className="pe-4"
+              data-aos="flip-left"
+              data-aos-offset="500"
+              data-aos-duration="500"
+            >
               <div className="portfolio_cards">
                 <img src={flower} alt="flower" className="w-100 h-100" />
               </div>
             </div>
-            <div className="pe-4">
+            <div
+              className="pe-4"
+              data-aos="flip-left"
+              data-aos-offset="500"
+              data-aos-duration="1000"
+            >
               <div className="portfolio_cards">
                 <img src={chair} alt="flower" className="w-100 h-100" />
               </div>
             </div>
-            <div className="pe-4">
+            <div
+              className="pe-4"
+              data-aos="flip-left"
+              data-aos-offset="500"
+              data-aos-duration="1000"
+            >
               <div className="portfolio_cards">
                 <img src={capsule} alt="capsule" className="w-100 h-100" />
               </div>
             </div>
-            <div className="pe-4">
+            <div
+              className="pe-4"
+              data-aos="flip-left"
+              data-aos-offset="500"
+              data-aos-duration="500"
+            >
               <div className="portfolio_cards">
                 <img src={mail_box} alt="mail_box" className="w-100 h-100" />
               </div>

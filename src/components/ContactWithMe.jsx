@@ -17,7 +17,12 @@ const ContactWithMe = () => {
             <img src={men} alt="men" className="w-100" />
           </Col>
           <Col sm={6} className="pe-3 ps-xl-5 py-sm-5 py-md-0 py-4">
-            <div className="ps-md-5 ms-lg-5">
+            <div
+              className="ps-md-5 ms-lg-5"
+              data-aos="fade-left"
+              data-aos-offset="500"
+              data-aos-duration="500"
+            >
               <p className=" ff_gilroyReg text_shadow fs_sm text-uppercase fc_white">
                 About me
               </p>

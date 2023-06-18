@@ -13,12 +13,22 @@ const ContactUs = () => {
         />
         <div className="container py-5 ">
           <Row className="justify-content-between align-items-center py-lg-5 my-lg-5">
-            <Col lg={6}>
+            <Col
+              lg={6}
+              data-aos="zoom-in-right"
+              data-aos-offset="500"
+              data-aos-duration="500"
+            >
               <h1 className="ff_gilroyBlack mw_662 text_shadow fc_black fs_4x5l text-uppercase">
                 Nisi et diam euismod suspendisse tristique quis
               </h1>
             </Col>
-            <Col lg={5}>
+            <Col
+              lg={5}
+              data-aos="zoom-in-left"
+              data-aos-offset="500"
+              data-aos-duration="500"
+            >
               <p className="ff_gilroyReg fc_black opacity_7 fs_sm mb-4">
                 Tincidunt phasellus id imperdiet lorem blandit. Congue donec
                 scelerisque congue pellentesque.

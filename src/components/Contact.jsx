@@ -17,7 +17,12 @@ const Contact = () => {
             <img src={contact} alt="contact" className="w-100" />
           </Col>
           <Col sm={6} className="pe-3 ps-lg-5 py-sm-5 py-4">
-            <div className="ms-md-5 ps-xl-5">
+            <div
+              className="ms-md-5 ps-xl-5"
+              data-aos="fade-left"
+              data-aos-offset="500"
+              data-aos-duration="500"
+            >
               <h2 className=" ff_gilroyBlack fc_white fs_6x5l text-uppercase mb-1 text_shadow mw_500">
                 Sed volutpat erat dignissim iaculis aenean
               </h2>
