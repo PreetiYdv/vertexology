@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import logo from "../assets/images/png/logo.png";
 import wing from "../assets/images/png/wing_img.png";
-import footer_img from "../assets/images/png/footer_img.png"
+import footer_img from "../assets/images/png/footer_img.png";
 
 const Footer = () => {
   return (
@@ -11,12 +11,12 @@ const Footer = () => {
         <img
           src={wing}
           alt="wing"
-          className=" position-absolute top-0 mt-4 start-0 w-100 mw_74 ms-5"
+          className="position-absolute top-0 mt-4 start-0 w-100 mw_74 ms-5"
         />
         <img
           src={wing}
           alt="wing"
-          className=" position-absolute bottom-0 end-0 w-100 mw_74 me-5 mb-5 pt-5 rotate180"
+          className="position-absolute bottom-0 end-0 w-100 mw_74 me-5 mb-5 pt-5 rotate180"
         />
         <div className="position-fixed start-68 bottom_25 my-5 rotate90 z-3">
           <a href="#" className="ff_gilroyReg fc_black opacity_7 fs_2xl">

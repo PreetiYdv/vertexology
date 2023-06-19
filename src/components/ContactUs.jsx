@@ -5,14 +5,14 @@ import wing from "../assets/images/png/portfolio_wing.png";
 const ContactUs = () => {
   return (
     <>
-      <section id="contact" className=" py-lg-5 page_bg position-relative">
+      <section id="contact" className="py-lg-5 page_bg position-relative">
         <img
           src={wing}
           alt="wing"
           className="position-absolute top-0 end-0 me-4 mt-4 z-3 mw_90"
         />
         <div className="container py-5 ">
-          <Row className="justify-content-between align-items-center py-lg-5 my-lg-5">
+          <Row className="justify-content-between align-items-center py-xl-5 my-xl-5">
             <Col
               lg={6}
               data-aos="zoom-in-right"
