@@ -142,11 +142,12 @@
 }
 
 .contact_btn:hover {
-   background:white;
-   color: #FF2801;
-   box-shadow: 0px 3px 5px 1px #FF2801;
+    background: white;
+    color: #FF2801;
+    box-shadow: 0px 3px 5px 1px #FF2801;
 }
-.contact_btn:hover::before{
+
+.contact_btn:hover::before {
     display: none;
 }
 
@@ -273,6 +274,16 @@
     align-items: center;
     justify-content: center;
     background: linear-gradient(133.72deg, #FF2801 -0.47%, #FF6500 90.6%), #D9D9D9;
+    transition: all .3s linear !important;
+}
+
+.footer_icon:hover {
+    background: #ffffff;
+    border: 1px solid #FF2801;
+}
+
+.footer_icon:hover svg path {
+    fill: #ff5100;
 }
 
 .mw_74 {

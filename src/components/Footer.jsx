@@ -40,8 +40,8 @@ const Footer = () => {
             Instagram
           </a>
         </div>
-        <div className="container py-5 my-5">
-          <Row className="mb-5">
+        <div className="container py-5 my-md-5">
+          <Row className="mb-lg-5">
             <Col lg={7}>
               <img src={logo} alt="logo" className="mb-4" />
               <h2 className="ff_gilroyBlack fs_65xl text_shadow text-uppercase fc_black mb-0 mw_741 text-center text-md-start">

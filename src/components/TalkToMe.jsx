@@ -10,7 +10,7 @@ const TalkToMe = () => {
         <img
           src={wing}
           alt="wing"
-          className=" position-absolute bottom-0 start-0 w-100 mw_74 ms-5 mb-5 pt-3 rotate180"
+          className=" position-absolute bottom-0 start-0 w-100 mw_74 ms-5 mb-5 pt-3 rotate180 d-sm-block d-none"
         />
         <Row className="align-items-center justify-content-between flex-column-reverse flex-sm-row">
           <Col
