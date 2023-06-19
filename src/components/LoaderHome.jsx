@@ -23,10 +23,10 @@ function LoaderHome() {
           className="bg-black top-0 start-0 position-fixed h-100 w-100 d-flex flex-column justify-content-center align-items-center"
         >
           <div class=" d-flex justify-content-center align-items-center">
-            {/* <img className="pre_loading_logo" src={logo} alt="logo" /> */}
-            <div class="loader">
-              <span>Vertexology</span>
-            </div>
+              {/* <img className="pre_loading_logo" src={logo} alt="logo" /> */}
+              <div class="loader">
+                <span>Vertexology</span>
+              </div>
           </div>
         </section>
       ) : (

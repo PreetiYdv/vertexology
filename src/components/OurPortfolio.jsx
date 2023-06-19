@@ -34,7 +34,7 @@ const OurPortfolio = () => {
       {
         breakpoint: 992,
         settings: {
-          slidesToShow: 1.8,
+          slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
@@ -153,7 +153,7 @@ const OurPortfolio = () => {
             <div
               className="pe-4"
               data-aos="flip-left"
-              data-aos-offset="500"
+              data-aos-offset="100"
               data-aos-duration="500"
             >
               <div className="portfolio_cards">
@@ -163,7 +163,7 @@ const OurPortfolio = () => {
             <div
               className="pe-4"
               data-aos="flip-left"
-              data-aos-offset="500"
+              data-aos-offset="100"
               data-aos-duration="1000"
             >
               <div className="portfolio_cards">
@@ -173,7 +173,7 @@ const OurPortfolio = () => {
             <div
               className="pe-4"
               data-aos="flip-left"
-              data-aos-offset="500"
+              data-aos-offset="100"
               data-aos-duration="1000"
             >
               <div className="portfolio_cards">
@@ -183,7 +183,7 @@ const OurPortfolio = () => {
             <div
               className="pe-4"
               data-aos="flip-left"
-              data-aos-offset="500"
+              data-aos-offset="100"
               data-aos-duration="500"
             >
               <div className="portfolio_cards">

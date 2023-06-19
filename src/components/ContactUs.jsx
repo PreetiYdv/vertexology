@@ -16,7 +16,7 @@ const ContactUs = () => {
             <Col
               lg={6}
               data-aos="zoom-in-right"
-              data-aos-offset="500"
+              data-aos-offset="100"
               data-aos-duration="500"
             >
               <h1 className="ff_gilroyBlack mw_662 text_shadow fc_black fs_4x5l text-uppercase">
@@ -26,7 +26,7 @@ const ContactUs = () => {
             <Col
               lg={5}
               data-aos="zoom-in-left"
-              data-aos-offset="500"
+              data-aos-offset="100"
               data-aos-duration="500"
             >
               <p className="ff_gilroyReg fc_black opacity_7 fs_sm mb-4">

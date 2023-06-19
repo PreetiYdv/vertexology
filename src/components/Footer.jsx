@@ -11,14 +11,14 @@ const Footer = () => {
         <img
           src={wing}
           alt="wing"
-          className="position-absolute top-0 mt-4 start-0 w-100 mw_74 ms-5"
+          className="position-absolute top-0 mt-4 start-0 w-100 mw_74 ms-5 d-sm-block d-none"
         />
         <img
           src={wing}
           alt="wing"
-          className="position-absolute bottom-0 end-0 w-100 mw_74 me-5 mb-5 pt-5 rotate180"
+          className="position-absolute bottom-0 end-0 w-100 mw_74 me-5 mb-5 pt-5 rotate180 d-sm-block d-none"
         />
-        <div className="position-fixed start-68 bottom_25 my-5 rotate90 z-3">
+        <div className="position-fixed start-68 bottom_30 my-5 rotate90 z-3 d-sm-block d-none">
           <a href="#" className="ff_gilroyReg fc_black opacity_7 fs_2xl">
             Behance / &nbsp;
           </a>
@@ -29,7 +29,7 @@ const Footer = () => {
             LinkedIn
           </a>
         </div>
-        <div className="position-fixed end_67 bottom_25 mb-5 rotate90 z-3">
+        <div className="position-fixed end_67 bottom_30 mb-5 rotate90 z-3 d-sm-block d-none">
           <a href="#" className="ff_gilroyReg fc_black opacity_7 fs_2xl">
             Twitter / &nbsp;
           </a>
@@ -40,14 +40,14 @@ const Footer = () => {
             Instagram
           </a>
         </div>
-        <div className="container py-5 my-md-5">
+        <div className="container py-lg-5 my-md-5">
           <Row className="mb-lg-5">
             <Col lg={7}>
               <img src={logo} alt="logo" className="mb-4" />
-              <h2 className="ff_gilroyBlack fs_65xl text_shadow text-uppercase fc_black mb-0 mw_741 text-center text-md-start">
+              <h2 className="ff_gilroyBlack fs_65xl text_shadow text-uppercase fc_black mb-0 mw_741">
                 Utn vulputate rutrum bibend puru.
               </h2>
-              <p className="ff_gilroyReg fc_black opacity_7 fs_sm text-center text-md-start">
+              <p className="ff_gilroyReg fc_black opacity_7 fs_sm">
                 Faucibus pulvinar enim in sagittis. Aliquam libero dolor iaculis
                 in aliquam. Cursus nibh enim sed et, mauris morbi. Faucibus
                 viverra et diam sit cursus.
@@ -71,7 +71,7 @@ const Footer = () => {
                   type="email"
                   name="email"
                   placeholder="Enter Email Address"
-                  className="email_box w-100 rounded-pill"
+                  className="email_box w-100 rounded-pill ff_gilroyReg fs_xsm"
                 />
                 <button className="ff_gilroySemiBold fs_xsm rounded-pill fc_white submit_btn border-0 translateX lh_17 position-absolute">
                   SUBMIT
@@ -80,7 +80,7 @@ const Footer = () => {
             </Col>
             <Col
               lg={5}
-              className="d-flex justify-content-lg-end justify-content-center position-relative pb-5 pt-lg-0 pt-5"
+              className="d-flex justify-content-lg-end position-relative pb-lg-5 pt-lg-0 pt-5"
             >
               <img
                 src={footer_img}

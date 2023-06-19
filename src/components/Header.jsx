@@ -103,7 +103,7 @@ const Header = () => {
         </nav>
         <section
           id="home"
-          className="py-5 my-5 flex-grow-1 d-flex  justify-content-center align-items-center"
+          className="py-md-5 my-sm-5 flex-grow-1 d-flex  justify-content-center align-items-center"
         >
           <div className="container py-5 my-5">
             <h2 className="ff_gilroyBlack fc_white text-center fs_12x2l mb-0 text-uppercase text_shadow">

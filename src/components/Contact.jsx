@@ -16,9 +16,9 @@ const Contact = () => {
           <Col sm={6} className="p-0">
             <img src={contact} alt="contact" className="w-100" />
           </Col>
-          <Col sm={6} className="px-3 ps-xl-5 py-sm-0 py-4 py-5">
+          <Col sm={6} className=" ps-xl-5 py-sm-0 py-4 py-5">
             <div
-              className="ms-md-5 ps-xl-5"
+              className="ms-md-5 ps-xl-5 px-3"
               data-aos="fade-left"
               data-aos-offset="500"
               data-aos-duration="500"
