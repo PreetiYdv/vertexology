@@ -15,8 +15,8 @@ const Header = () => {
       <header className="header_bg min_vh_100 d-flex flex-column position-relative">
         <nav className="position-relative z-index-50 pt-4">
           <div className="container d-flex justify-content-between align-items-center">
-            <a href="#" onClick={shownavBar}>
-              <img src={logo} alt="vertexology" className="" />
+            <a href="#home">
+              <img src={logo} alt="vertexology" />
             </a>
             <ul className="d-none d-lg-flex gap-4 mb-0 p-0 align-items-center myNav">
               <li>
