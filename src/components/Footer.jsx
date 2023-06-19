@@ -85,7 +85,7 @@ const Footer = () => {
               <img
                 src={footer_img}
                 alt="footer_img"
-                className="w-50 position-absolute start-0 bottom-0 h-100"
+                className="w-50 position-absolute start-0 bottom-0 h-100 objectfitContain"
               />
               <div className="d-flex flex-lg-column justify-content-center gap-3 position-relative z-3">
                 <a href="https://www.instagram.com/">

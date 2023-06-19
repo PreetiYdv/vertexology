@@ -286,6 +286,10 @@
     fill: #ff5100;
 }
 
+.objectfitContain{
+    object-fit: contain;
+}
+
 .mw_74 {
     max-width: 74px;
 }
